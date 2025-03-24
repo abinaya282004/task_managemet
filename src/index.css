@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Full-page background and centering */
+.home-container {
+  height: 100vh;
+  background: url("https://source.unsplash.com/1600x900/?workspace,office") no-repeat center center/cover;
+}
+
+/* Buttons container */
+.btn-container {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+}
+
+/* Buttons styling */
+.btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover effects */
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
