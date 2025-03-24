@@ -10,7 +10,7 @@ const TaskListPage = () => {
   const [updatedDescription, setUpdatedDescription] = useState("");
   const [updatedDueDate, setUpdatedDueDate] = useState("");
 
-  // 🔹 Fetch tasks from MySQL on component mount
+  // Fetch tasks from MySQL on component mount
   useEffect(() => {
     fetchTasks();
   }, []);
@@ -54,7 +54,7 @@ const TaskListPage = () => {
     }
   };
 
-  // 🔹 Handle Delete Task 
+  // Handle Delete Task 
   const handleDelete = async (id) => {
     if (!window.confirm("🗑 Are you sure you want to delete this task?")) return;
 
